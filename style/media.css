@@ -1,0 +1,166 @@
+@media(max-width: 1200px) {
+    .films__cards {
+        grid-template-columns: repeat(2, 255px);
+        justify-content: center;
+    }
+
+    .title {
+        margin: 0 auto;
+    }
+
+    .series__cards {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 992px) {
+    .collection__cards {
+        grid-template-columns: repeat(1, 350px);
+        justify-content: center;
+
+    }
+
+    .series__cards {
+        grid-template-areas: 'thrones thrones thrones thrones'
+            'thrones thrones thrones thrones'
+            'wanda wanda wanda wanda'
+            'wanda wanda wanda wanda';
+    }
+}
+
+@media(max-width: 768px) {
+    .header__content_title {
+        font-size: 55px;
+
+    }
+
+    .widow::after {
+        background: linear-gradient(180deg, #DEF7FF 0%, #F4FCFF 0.64%, rgba(255, 255, 255, 0) 100.72%);
+    }
+
+    .header__content_text {
+        width: 496px;
+    }
+
+    .series__cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'thrones thrones '
+            'wanda wanda'
+            'wanda wanda'
+            'flash flash';
+    }
+
+
+}
+
+@media(max-width: 576px) {
+    .widow__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav__item {
+        flex-direction: column;
+    }
+
+    .films__cards {
+        grid-template-columns: 255px;
+    }
+
+
+    .logo {
+        margin-top: 30px;
+    }
+
+    .padding {
+        padding: 30px 0;
+    }
+
+    .header__content_title {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .header__content {
+        align-items: center;
+        height: 540px;
+    }
+
+    .header__content_text {
+        width: 100%;
+    }
+
+    .widow__inner img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 452px) {
+    .header__content_title {
+        font-size: 35px;
+        /* line-height: 20px; */
+    }
+
+    .header__content_text {
+        font-size: 15px;
+    }
+
+    .series__cards {
+        grid-template-columns: 1fr;
+        grid-template-areas: 'thrones'
+            'wanda'
+            'flash'
+            'great'
+            'gotham'
+            'witcher';
+    }
+
+    .series__card_text {
+        margin: 20px 0;
+    }
+
+    .series__card_title {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .thrones {
+        padding: 60px 22px 60px 22px;
+    }
+    .footer__logo{
+        flex-direction: column;
+    }
+    .footer__text{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 375px) {
+    .collection__cards {
+        grid-template-columns: repeat(1, 300px);
+        justify-content: center;
+    }
+
+    .btn {
+        padding: 17px 30px;
+    }
+
+    .header__content_text {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .header__content_title {
+        font-size: 31px;
+    }
+
+    .nav__list {
+        gap: 20px;
+    }
+
+    .widow__inner_text {
+        font-size: 14px;
+    }
+
+}
